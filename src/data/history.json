@@ -1,0 +1,39 @@
+[
+
+    {
+      "role": "Front End Developer",
+      "organisation": "INVIFAR",
+      "startDate": "Jul, 2023",
+      "endDate": "Jun, 2024",
+      "experiences": [
+        "Developed a user-friendly website for drug resistance researchers using HTML, CSS, and JavaScript, incorporating Bootstrap for responsive design and GitHub for version control.",
+        "Implemented Docker containers to streamline the development and deployment processes, collaborating with DevOps and QA teams to integrate SonarQube for code quality checks and Slack for effective team communication.",
+        "Designed intuitive navigation maps and user experiences for the website, ensuring seamless integration of HTML, CSS, and JavaScript while using Bootstrap to enhance the interface and Slack for real-time feedback during development."
+      ],
+      "imageSrc": "history/ucol.png"
+    },
+    {
+      "role": "Technological Infrastructure Engineer",
+      "organisation": "Universidad de Colima",
+      "startDate": "Sep, 2022",
+      "endDate": "Sep, 2023",
+      "experiences": [
+        "Managed the institutional CMS to enhance the user experience for UCOL students and staff, utilizing CMS tools and technologies.",
+        "Improved the management and preventive maintenance of technological infrastructure by leveraging Linux for system management, Macrium and Rufus for backup and recovery, and Klein Tools for hardware repairs.",
+        "Installed and configured internet and Wi-Fi networks, including the setup of routers, access points, and network security measures using Cisco, TP-LINK, and Ubiquiti to ensure reliable and secure connectivity for all users."
+      ], 
+      "imageSrc": "history/ucol.png"
+    },
+    {
+        "role": "Technical Support",
+        "organisation": "Uninet Telmex",
+        "startDate": "May, 2022",
+        "endDate": "Jul, 2022",
+        "experiences": [
+          "Worked as an apprentice in business technical support, using AnyDesk to assist with troubleshooting and resolving issues while gaining experience in customer service and technical problem-solving.",
+          "Handled business internet installation, including the setup, configuration, and testing of network infrastructure using Cisco equipment to ensure reliable and high-speed connectivity.",
+          "Created network cables, performing tasks such as cutting, stripping, crimping, and testing to ensure reliable data transmission, with support and coordination facilitated through Slack."
+        ],
+        "imageSrc": "history/telmex.svg"
+      }
+  ]

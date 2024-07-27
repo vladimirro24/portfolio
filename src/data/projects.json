@@ -1,0 +1,31 @@
+[
+    {
+      "title": "INVIFAR",
+      "imageSrc": "projects/invifar.jpeg",
+      "description": "Create a website where researchers can share their protocols, results and courses",
+      "skills": ["HTML", "CSS", "JavaScript", "Boostrap"],
+      "demo": "https://invifar.ucol.mx/"
+    },
+    {
+      "title": "Memory Game",
+      "imageSrc": "projects/memo.jpeg",
+      "description": "The Memory Game challenges players to find and match pairs of identical cards, testing and improving memory skills.",
+      "skills": ["React", "JavaScript", "CSS", "HTML", "Node.js"],
+      "demo": "https://vladimirro-memorama.vercel.app/"
+    },
+    {
+      "title": "Quiz App",
+      "imageSrc": "projects/quiz.jpeg",
+      "description": "The Quiz Game challenges players with questions on various topics, testing their knowledge and offering interactive fun.",
+      "skills": ["React", "JavaScript", "Node.js", "Tailwind", "HTML", "CSS"],
+      "demo": "https://vladimirro-quiz.vercel.app/"
+    },
+    {
+      "title": "Panda-GPT",
+      "imageSrc": "projects/panda.jpeg",
+      "description": "This project is a version of chatgpt which is used to provide answers to users",
+      "skills": ["HTML", "CSS", "JavaScript", "Boostrap", "Dall E 3", "ChatGPT 3.5"],
+      "demo": "https://66a17c5d101a494c76a60c25--panda-gpt.netlify.app/"
+    }
+    
+  ]

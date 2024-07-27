@@ -1,0 +1,146 @@
+.container {
+  color: var(--color-text);
+  margin-top: 79px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.history {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.historyItem {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 17px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+  margin: 3rem 0;
+  opacity: 0;
+  transition: opacity 1s ease-out, transform 1s ease-out; /* Ajuste de duración de la animación */
+}
+
+.historyItem.visible {
+  opacity: 1;
+  transform: none;
+}
+
+.historyItem img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--color-text);
+  margin-right: 1.5rem;
+}
+
+.historyItemDetails {
+  flex: 1;
+}
+
+.historyItemDetails h3 {
+  margin: 0;
+  font-size: 1.75rem;
+  color: var(--color-text);
+}
+
+.historyItemDetails p {
+  margin: 0.5rem 0;
+  font-size: 1.125rem;
+  color: var(--color-text);
+}
+
+.historyItemDetails ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.historyItemDetails ul li {
+  margin: 0.5rem 0;
+  font-size: 1.125rem;
+}
+
+.fadeInLeft {
+  transform: translateX(-100%);
+}
+
+.fadeInRight {
+  transform: translateX(100%);
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 32px;
+    height: auto;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .historyItem {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    max-width: 100%;
+    margin: 2rem 0;
+    padding: 16px;
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Asegura que la animación esté en todos los tamaños de pantalla */
+  }
+
+  .historyItem img {
+    margin-bottom: 1rem;
+  }
+
+  .historyItemDetails {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .historyItemDetails h3 {
+    font-size: 1.5rem;
+  }
+
+  .historyItemDetails p {
+    font-size: 1rem;
+  }
+
+  .historyItemDetails ul li {
+    font-size: 1rem;
+  }
+
+  .fadeInLeft, .fadeInRight {
+    transform: none; /* Evita la transformación en dispositivos móviles */
+  }
+}
