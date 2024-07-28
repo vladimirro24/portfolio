@@ -101,7 +101,7 @@
   }
 
   .aboutImage {
-    display: none;
+    display: flex;
   }
 
   .aboutItems {
@@ -111,5 +111,11 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+  }
+  
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -68,12 +68,16 @@
 }
 
 .heroImg {
-    width: 50%;
+    width: 40%;
     z-index: 1;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    border-radius: 10px white;
+    border-radius: 50%;
+    object-fit: cover; /* Esto asegura que la imagen se ajuste correctamente */
+    border: 5px solid #576cbc; /* Ajusta el grosor y el color del borde */
 }
 
 @keyframes floating {
