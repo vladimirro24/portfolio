@@ -7,7 +7,7 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi I'm Vlady</h1>
-                <p className={styles.description}>I'm a Software Engineer with one year of experience in web development. Reach out if you're looking for custom development!</p>
+                <p className={styles.description}>I’m a software engineer specializing in web development, with experience in front-end and a strong understanding of back-end. I’m passionate about creating amazing websites and, in addition, I’m a big fan of pandas.</p>
                 <a 
                     href="/resume.pdf" 
                     download="Resume-Vladimir-Rodriguez.pdf" 
