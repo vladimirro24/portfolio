@@ -1,7 +1,20 @@
 [
-
     {
-      "role": "Front End Developer",
+      "role": "IT Support Engineer",
+      "organisation": "Seguritech",
+      "startDate": "Oct, 2024",
+      "endDate": "Present",
+      "experiences": [
+        "Coordinated and implemented Intelligent Monitoring Point (PMI) projects, conducting soil studies, line-of-sight analysis, field visits, and technical, legal, and operational coordination with suppliers and third parties.",
+        "Performed preventive and corrective maintenance on advanced systems, including urban video surveillance and highway monitoring systems.",
+        "Provided technical support and maintained wireless and data network infrastructure to ensure reliable communications and operational continuity.",
+        "Implemented and maintained critical technology systems in monitoring centers and data centers to ensure optimal performance.",
+        "Installed, configured, and maintained technological equipment on poles, towers, and highway gantries, performing field operations at heights."
+      ],
+      "imageSrc": "history/seguritech.jpg"
+    },
+    {
+      "role": "WEB Developer",
       "organisation": "INVIFAR",
       "startDate": "Jul, 2023",
       "endDate": "Jun, 2024",
