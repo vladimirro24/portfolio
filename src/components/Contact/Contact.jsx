@@ -37,7 +37,7 @@ export const Contact = () => {
         </ul>
         <h1>Feel free to reach out!</h1>
         <h3>Created by vlady🐼</h3>
-        <h3>All Rights Reserved © 2024</h3>
+        <h3>All Rights Reserved © 2026</h3>
       </div>
       
     </footer>
