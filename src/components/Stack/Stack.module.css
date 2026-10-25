@@ -9,14 +9,28 @@
 
 .title {
   color: var(--color-text);
-  font-size: 40px;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: clamp(0.5px, 0.15vw, 1.75px);
   text-transform: uppercase;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+
+  width: 100%;
+  max-width: 100%;
+  min-height: 15vh;
+  height: auto;
+
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  line-height: 1.2;
 }
 
 .content {
