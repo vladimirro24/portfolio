@@ -42,25 +42,5 @@
     {
       "title": "Github",
       "imageSrc": "skills/github.png"
-    },
-    {
-      "title": "Axis",
-      "imageSrc": "skills/axis-communications.png"
-    },
-    {
-      "title": "Cambium Networks",
-      "imageSrc": "skills/cambiumnetworks.png"
-    },
-    {
-      "title": "Moxa Technologies",
-      "imageSrc": "skills/moxa.png"
-    },
-    {
-      "title": "HP",
-      "imageSrc": "skills/HPSW.png"
-    },
-    {
-      "title": "Ubiquiti Networks",
-      "imageSrc": "skills/Ubiquiti.png"
     }
   ]
