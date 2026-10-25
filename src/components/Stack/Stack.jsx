@@ -23,7 +23,7 @@ export const Stack = () => {
           })}
           </div>
         </div>
-        <h2 className={styles.title}>Networking and Telecommunications Stack</h2>
+        <h2 className={styles.title}>Networking Stack</h2>
         <div className={styles.content}>
           <div className={styles.skills}>
           {skillsnet.map((skill, id) => {
