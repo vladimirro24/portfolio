@@ -34,7 +34,7 @@ export const About = () => {
       <h2 className={styles.title}>About me</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/pandaImage.png")}
+          src={getImageUrl("about/me.jpeg")}
           alt="Me sitting with a laptop"
           className={`${styles.aboutImage} ${isVisible ? styles.visible : styles.hidden}`}
           ref={pandaImageRef}
