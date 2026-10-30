@@ -102,11 +102,11 @@
 
   .aboutImage {
     display: flex;
+    border-radius: 5%;
   }
 
   .aboutItems {
     margin-top: 29px;
-    border-radius: 5%;
   }
 
   .aboutItem {
