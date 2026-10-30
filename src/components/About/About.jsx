@@ -61,7 +61,7 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img className={styles.image} src={getImageUrl("about/switches.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Network Technician</h3>
+              <h3>Network Engineer</h3>
               <p>
                 I have designed, installed, and configured wired and wireless networks in schools, businesses, and national monitoring and communications centers.  
               </p>
