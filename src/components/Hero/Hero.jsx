@@ -7,7 +7,7 @@ export const Hero = () => {
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>Hi I'm Vlady</h1>
-                <p className={styles.description}>I’m a software engineer specializing in web development, with experience in front-end and a strong understanding of back-end. I’m passionate about creating amazing websites and, in addition, I’m a big fan of pandas.</p>
+                <p className={styles.description}>I'm a Software Engineer with multidisciplinary experience in software development, networking, telecommunications, and IT infrastructure. Passionate about building innovative solutions, solving technical challenges, and continuously learning. Open to new opportunities and professional growth.</p>
                 <a 
                     href="/Resume.pdf" 
                     download="Resume-Vladimir-Rodriguez.pdf" 
@@ -17,7 +17,7 @@ export const Hero = () => {
                 </a>
             </div>
             <img
-                src={getImageUrl("hero/me.png")}
+                src={getImageUrl("hero/me.jpeg")}
                 alt="Me"
                 className={styles.heroImg}
             />
