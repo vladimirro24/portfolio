@@ -63,7 +63,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Network Technician</h3>
               <p>
-                I have designed, installed and configured wired and wireless networks in schools and companies.
+                I have designed, installed, and configured wired and wireless networks in schools, businesses, and national monitoring and communications centers.  
               </p>
             </div>
           </li>
