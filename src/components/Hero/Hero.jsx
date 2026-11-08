@@ -9,7 +9,7 @@ export const Hero = () => {
                 <h1 className={styles.title}>Hi I'm Vlady</h1>
                 <p className={styles.description}>I'm a Software Engineer with multidisciplinary experience in software development, networking, telecommunications, and IT infrastructure. Passionate about building innovative solutions, solving technical challenges, and continuously learning. Open to new opportunities and professional growth.</p>
                 <a 
-                    href="/Resume.pdf" 
+                    href="/resume.pdf" 
                     download="Resume-Vladimir-Rodriguez.pdf" 
                     className={styles.resumetBtn}
                 >
